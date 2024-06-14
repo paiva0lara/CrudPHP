@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table {
+    background-color: rgb(110, 110, 110);
+    font-size: 25px;
+    text-align: center;
+}
+
+tr, th, td {
+    border: 1px solid black;
+}
+
+a {
+    background-color: black;
+    border: 2px solid aqua;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    background-color: rgb(78, 78, 78);
+    color: aqua;
+    font-size: 20px;
+}

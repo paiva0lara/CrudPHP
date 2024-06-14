@@ -1,0 +1,20 @@
+<!doctype HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Deletar Registros</title>
+        <link rel="stylesheet" type="text/css" href="ex.css"/>
+        <script language="JavaScript"></script>
+    </head>
+    <body>
+        <form id="form1" method="post" action="delet.php">            
+            <h3>Excluir Registros</h3>
+            <label class="n">Escolha o código desejado</label>
+            <input type="text" id="txtcodi" name="txtcodi" maxlength="2" placeholder="Código desejado" required class="text"/>
+            
+            <div class="botoes">
+                <input type="submit" value="Excluir"/>
+                <input type="reset"  value="Limpar" onClick="document.getElementById('txtnome').focus();"/>
+                <input type="button" value="Menu" onClick="location.href='index.html';"/>
+            </div>
+        </form>

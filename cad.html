@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Registros</title>
+    <link rel="stylesheet" href="cad.css" >
+    <script src = "script.js"></script>
+</head>
+<body>
+    <form action="cada.php" method="post">
+        <h1>Cadastrar Registros</h1>
+
+        <div class="fe">
+            <label for="txt1">Digite seu nome:</label>
+            <input type="text" name="txt1" id="txt1" placeholder="Digite seu nome">
+        </div>
+
+        <div class="fe">
+            <label for="txt2">Digite seu email:</label>
+            <input type="text" placeholder="Digite seu email" name="txt2" id="txt2">
+        </div>
+
+        <div class="fe">
+            <label for="">Informe a senha:</label>
+            <input type="password" placeholder="Digite sua senha" name="txt3" id="txt3">
+        </div>
+        <div>
+
+            <label for="">Informe o sexo </label>
+            <input type="radio" name="txtsexo" value="M">
+            <label for="m">Masculino</label>
+            <input type="radio" name="txtsexo" value="F">
+            <label for="f">Feminino</label>
+
+        </div>
+
+        <div>
+            <label for="">Informe a data:</label>
+            <input type="date" name="txtdate">
+        </div>
+
+        <div class="btn">
+            <a href="list.php"><input type="submit" value="Enviar"></a>
+            <input type="reset">
+            <input type="button" value="Menu" onClick="location.href='index.html';"/>
+        </div>
+
+    </form>
+</body>
+</html>

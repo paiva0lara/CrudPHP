@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 70vh;
+    width: 35%;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 35px;
+    background-color: white;
+    border: 2px solid black;
+}
